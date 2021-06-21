@@ -1,0 +1,83 @@
+body{
+    background-color:black;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.fiona{
+    
+    background-color:rgb(66, 66, 71);
+    margin-top: 0pc;
+}
+
+
+h1{
+    font-size: 20px; 
+}
+
+h2{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 5%;
+    color:rgb(121, 119, 119);
+}
+h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-top: 12%;
+    color:rgb(121, 119, 119);
+
+}
+.firstparag{
+    color:gray;
+}
+.secondparag{
+   margin-left:16% ; 
+   margin-top:1.5% ;
+   color: rgb(121, 119, 119);
+}
+.firstparag >.img {
+
+float: right;
+
+}
+.thirdparag{
+   margin-left:16% ; 
+   color: rgb(121, 119, 119);
+}
+
+span{
+    font-weight: bold;
+}
+.Images{
+    float: left;
+    width: 22%;
+    padding: 2px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.Image::after {
+
+content: "";
+clear: both;
+display: table;
+}
+.Image > .Images
+{
+padding: -8px;
+}
+.Image {
+
+display: flex;
+}
+.Images {
+    flex: 33%;
+}
+.Images {
+    flex: 33%;
+}
+.names{
+
+    color:rgb(121, 119, 119);
+}
